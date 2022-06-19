@@ -24,9 +24,27 @@
 
 h1, h2 , h3 , h4 , p{
     margin: 0;
+    
 }
 
+img {
+        display: block;
+        max-width: auto;
+        height: auto;
+}
 
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+.header {
+    display: flex;
+    width: 1200px;
+}
 
 .nav .logo:hover
 .nav .logo:focus {
@@ -67,9 +85,10 @@ h1, h2 , h3 , h4 , p{
         text-decoration: none;
         color: var(--color-black)
 
+
     }
     .link{
-        
+        margin-right: 50px;
         text-decoration: none;
         font-weight: 500;
         line-height: 1.15;
