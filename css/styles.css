@@ -11,7 +11,7 @@
 --color-background-light: #F5F4FA;
 }
 
-/* Загальні*/
+/*Global*/
 
 .body{
     font-family: 'Roboto' , sans-serif;
@@ -41,10 +41,34 @@ img {
     width: 1200px;
 }
 
-.header {
+
+.nav{
     display: flex;
-    width: 1200px;
+    align-items: center;
+
+    
 }
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    max-width: 600px;
+    padding-left: 93px;
+}
+
+
+.contacts {
+    display: flex;
+    column-gap: 50px;
+    margin-left: auto;
+}
+
+
+
+
+
+
 
 .nav .logo:hover
 .nav .logo:focus {
@@ -69,7 +93,7 @@ img {
 }
 
 .logo{
-        font-family: 'Raleway' , serif;
+        font-family: 'Raleway' , sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -78,7 +102,7 @@ img {
     }
 
     .logo-accent{
-        font-family: 'Raleway', serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -88,12 +112,12 @@ img {
 
     }
     .link{
-        margin-right: 50px;
         text-decoration: none;
         font-weight: 500;
         line-height: 1.15;
         letter-spacing: 0.02em;
         color: var(--color-black);
+
         
         
     }
@@ -125,6 +149,9 @@ color: var(--color-accent);
 
 .hero{
     background-color: var(--color-background-dark);
+
+    padding: 200px 0;
+    text-align: center;
 }
 
 .hero-title{
@@ -208,7 +235,7 @@ color: var(--color-accent);
 }
 
 .footer .logo {
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -216,7 +243,7 @@ color: var(--color-accent);
 }
 
 .footer .logo-accent {
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
